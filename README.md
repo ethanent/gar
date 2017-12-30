@@ -31,3 +31,14 @@ So for: `-h hey --toggle -ac --hey=hi -spaced "hey there" -num 1 lone`
 	"_": ["lone"]
 }
 ```
+
+## Why use gar?
+
+gar is way more lightweight than other argument parsing packages.
+
+Package | Size (KB) | Dependencies<br />(Tree Count) | Size Comparison<br />(vs. gar)
+--- | --- | --- | ---
+optimist | 109 | [2](http://npm.anvaka.com/#/view/2d/optimist) | 27.25x
+minimist | 31 | [0](http://npm.anvaka.com/#/view/2d/minimist) | 7.75x
+args-parser | 15 | [0](http://npm.anvaka.com/#/view/2d/args-parser) | 3.75x
+gar | 4 | [0](http://npm.anvaka.com/#/view/2d/gar) | 1x

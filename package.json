@@ -1,6 +1,6 @@
 {
   "name": "gar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The lightweight Node arguments parser",
   "main": "index.js",
   "scripts": {
