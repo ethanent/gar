@@ -36,6 +36,8 @@ So for: `-h hey --toggle -ac --hey=hi -spaced "hey there" -num 1 lone`
 
 gar is way more lightweight than other argument parsing packages.
 
+<img src="https://pbs.twimg.com/media/DSVYanWVwAADiCB.jpg:large" alt="gar is less than 4% the size of the optimist library."/>
+
 Package | Size (KB) | Dependencies<br />(Tree Count) | Size Comparison<br />(vs. gar)
 --- | --- | --- | ---
 optimist | 109 | [2](http://npm.anvaka.com/#/view/2d/optimist) | 27.25x
