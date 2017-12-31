@@ -1,4 +1,8 @@
 module.exports = (sargs) => {
+	sargs = Array.isArray(sargs) ? sargs : sargs.split('')
+	
+	if (sargs.length === 0) return { _: [] }
+	
 	let props = {}
 	let lones = []
 
