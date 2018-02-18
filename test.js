@@ -33,4 +33,26 @@ w.add('lone --toggle -xyz', (result) => {
 	result(true, 'Object matched expected!')
 })
 
+w.add('lone --toggle TRUE -xyz', (result) => {
+	const parsed = gar(['lone', '--toggle', 'TRUE', '-xyz'])
+
+	assert.deepStrictEqual(parsed, {
+		'toggle': true,
+		'x': true,
+		'y': true,
+		'z': true,
+		'_': ['lone']
+	})
+
+	result(true, 'Object matched expected!')
+})
+
+w.add('No arguments', (result) => {
+	const parsed = gar([])
+
+	assert.deepStrictEqual(parsed, {'_' : []})
+
+	result(true, 'Object matched expected!')
+})
+
 w.test()

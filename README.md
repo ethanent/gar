@@ -11,10 +11,12 @@ npm i gar
 
 ## Use
 
-```javascript
-const opts = require('gar')(process.argv.slice(2))
+![gar usage demo](https://i.imgur.com/Ln6A8Nn.png)
 
-console.log(opts)
+```javascript
+const args = require('gar')(process.argv.slice(2))
+
+console.log(args)
 ```
 
 So for: `-h hey --toggle -ac --hey=hi -spaced "hey there" -num 1 lone`

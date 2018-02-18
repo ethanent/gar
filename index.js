@@ -2,7 +2,7 @@ module.exports = (sargs) => {
 	let props = {}
 	let lones = []
 
-	const makeNumberIfApplicable = (value) => (isNaN(value) ? value : Number(value))
+	const convertIfApplicable = (value) => (isNaN(value) ? (value.toString().toLowerCase() === 'true' ? true : (value.toString().toLowerCase() === 'false' ? false : value)) : Number(value))
 	const removeStartHyphens = (value) => value.replace(/^\-+/g, '')
 
 	for (let i = 0; i < sargs.length; i++) {
@@ -11,10 +11,10 @@ module.exports = (sargs) => {
 		const argName = equalsIndex === -1 ? removeStartHyphens(sargs[i]) : removeStartHyphens(sargs[i].slice(0, equalsIndex))
 
 		if (equalsIndex !== -1) {
-			props[argName] = makeNumberIfApplicable(sargs[i].slice(equalsIndex + 1))
+			props[argName] = convertIfApplicable(sargs[i].slice(equalsIndex + 1))
 		}
 		else if (isNextRefProp) {
-			props[argName] = makeNumberIfApplicable(sargs[i + 1])
+			props[argName] = convertIfApplicable(sargs[i + 1])
 			i++
 		} else if (sargs[i].charAt(0) === '-') {
 			if (sargs[i].charAt(1) === '-') {
@@ -26,7 +26,7 @@ module.exports = (sargs) => {
 				}
 			}
 		} else {
-			lones.push(makeNumberIfApplicable(argName))
+			lones.push(convertIfApplicable(argName))
 		}
 	}
 
