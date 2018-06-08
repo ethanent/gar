@@ -40,9 +40,9 @@ gar is way more lightweight than other argument parsing packages.
 
 <img src="https://pbs.twimg.com/media/DSVYanWVwAADiCB.jpg:large" alt="gar is less than 4% the size of the optimist library."/>
 
-Package | Size (KB) | Dependencies<br />(Tree Count) | Size Comparison<br />(vs. gar)
+Package | Install Size | Dependencies<br />(Tree Count) | Size Comparison<br />(vs. gar)
 --- | --- | --- | ---
-optimist | 109 | [2](http://npm.anvaka.com/#/view/2d/optimist) | 27.25x
-minimist | 31 | [0](http://npm.anvaka.com/#/view/2d/minimist) | 7.75x
-args-parser | 15 | [0](http://npm.anvaka.com/#/view/2d/args-parser) | 3.75x
-gar | 4 | [0](http://npm.anvaka.com/#/view/2d/gar) | 1x
+optimist | [![install size](https://packagephobia.now.sh/badge?p=optimist)](https://packagephobia.now.sh/result?p=optimist) | [2](http://npm.anvaka.com/#/view/2d/optimist) | 27.25x
+minimist | [![install size](https://packagephobia.now.sh/badge?p=minimist)](https://packagephobia.now.sh/result?p=minimist) | [0](http://npm.anvaka.com/#/view/2d/minimist) | 7.75x
+args-parser | [![install size](https://packagephobia.now.sh/badge?p=args-parser)](https://packagephobia.now.sh/result?p=args-parser) | [0](http://npm.anvaka.com/#/view/2d/args-parser) | 3.75x
+gar | [![install size](https://packagephobia.now.sh/badge?p=gar)](https://packagephobia.now.sh/result?p=gar) | [0](http://npm.anvaka.com/#/view/2d/gar) | 1x
