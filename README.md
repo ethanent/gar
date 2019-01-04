@@ -38,11 +38,11 @@ So for: `-h hey --toggle -ac --hey=hi -spaced "hey there" -num 1 lone`
 
 gar is way more lightweight than other argument parsing packages.
 
-<img src="https://pbs.twimg.com/media/DSVYanWVwAADiCB.jpg:large" alt="gar is less than 4% the size of the optimist library."/>
+Here's a size comparison chart powered by [Package Phobia](https://github.com/styfle/packagephobia):
 
-Package | Size (KB) | Dependencies<br />(Tree Count) | Size Comparison<br />(vs. gar)
---- | --- | --- | ---
-optimist | 109 | [2](http://npm.anvaka.com/#/view/2d/optimist) | 27.25x
-minimist | 31 | [0](http://npm.anvaka.com/#/view/2d/minimist) | 7.75x
-args-parser | 15 | [0](http://npm.anvaka.com/#/view/2d/args-parser) | 3.75x
-gar | 4 | [0](http://npm.anvaka.com/#/view/2d/gar) | 1x
+Package | Size
+--- | ---
+optimist | [![optimist package size](https://packagephobia.now.sh/badge?p=optimist)](https://packagephobia.now.sh/result?p=optimist)
+minimist | [![minimist package size](https://packagephobia.now.sh/badge?p=minimist)](https://packagephobia.now.sh/result?p=minimist)
+args-parser | [![args-parser package size](https://packagephobia.now.sh/badge?p=args-parser)](https://packagephobia.now.sh/result?p=args-parser)
+gar | [![gar package size](https://packagephobia.now.sh/badge?p=gar)](https://packagephobia.now.sh/result?p=gar)
