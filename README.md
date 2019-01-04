@@ -38,7 +38,7 @@ So for: `-h hey --toggle -ac --hey=hi -spaced "hey there" -num 1 lone`
 
 gar is way more lightweight than other argument parsing packages.
 
-Here's a size comparison chart powered by [Package Phobia](https://github.com/styfle/packagephobia):
+Here's a size comparison table:
 
 Package | Size
 --- | ---
